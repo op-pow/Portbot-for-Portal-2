@@ -6,7 +6,7 @@ from google import genai
 from PIL import Image
 
 # 1. Setting up the Gemini Brain
-API_KEY = "AQ.Ab8RN6LsMfFifppGIwwTyWeRwBIyWeXYBJoH722zZuvgCVmFZQ"
+API_KEY = "PASTE_YOUR_FREE_KEY_HERE"
 client = genai.Client(api_key=API_KEY)
 
 def send_command(command_text):
